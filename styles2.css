@@ -1,0 +1,118 @@
+body {
+    margin: 65px;
+    background-color: rgb(240, 232, 222);
+    font-family: 'Montserrat';
+}
+
+.box {
+   /*  margin: 50vh; */
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.box img {
+    width: 300px;
+    height: 450px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.sec-box {
+    display: inline-block;
+    background-color: white;
+    margin: 0;
+    width: 300px;
+    height: 450px;
+    padding-left: 30px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+
+}
+
+.sec-box .letter-space {
+    letter-spacing: 3px;
+    color: hsl(228, 12%, 48%);
+    font-size: small;
+    margin-top:20px ;
+}
+
+.sec-box h1 {
+    font-family:'Fraunces';
+}
+
+.sec-box p {
+    color:hsl(228, 12%, 48%);
+
+}
+.money {
+    display:flex;
+}
+
+.sec-box .main-price {
+    color: hsl(158, 36%, 37%);
+    font-size: 185%;
+    font-family: 'Fraunces';
+    
+}
+
+
+.sec-box .discount {
+    display: flex;
+    margin-top: 25px;
+    font-size: 90%;
+    text-decoration: line-through;
+    
+}
+
+.sec-box button {
+    background-color: hsl(158, 36%, 37%);
+    width: 245px;
+    height: 45px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    border-style: none;
+}
+
+.sec-box button:hover {
+    background-color:hsl(158, 42%, 18%) ;
+    cursor: pointer;
+}
+.sec-box button img {
+    width: 15px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+  }
+  
+  .top-left-btn {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+  
+    padding: 10px 16px;
+    border: none;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+
+button a {
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+button:hover {
+    color: #d2f7ee;
+}
+  

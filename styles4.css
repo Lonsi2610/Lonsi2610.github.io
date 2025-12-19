@@ -1,0 +1,155 @@
+body {
+    background-image: url(Images/pattern-background-desktop\ copy.svg) ;
+    margin: 0;
+    font-family: 'Red Hat Display';
+
+}
+
+.box {
+    margin: 0 auto;
+    margin-top: 55px;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    
+
+    
+}
+
+ img{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    
+    
+}
+
+.order-summary {
+    background-color: white;
+    width: 450px;
+    height: 420px;
+    margin-top: 0;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.order-summary h2  {
+    text-align: center;
+    font-weight: 800;
+    margin-top: 45px;
+}
+.order-summary p {
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+    padding-left: 65px;
+    padding-right: 65px;
+}
+
+/* Annual Plan */
+
+.annual-plan {
+    background-color: hsl(216, 33%, 94%);
+    width:72%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    padding:0;
+    /* line optional */
+}
+
+.annual-plan img {
+    padding-top: 20px;
+}
+
+.annual-plan #bold {
+    font-weight:bold ;
+    color:black;
+    
+
+}
+.annual-plan p {
+    display:inline-block;
+    color: grey;
+    padding-left: 15px;
+    padding-right: 45px;
+    margin-top: 0px;
+    margin-bottom: 16px;
+    padding-bottom: 10px;
+    
+    
+}
+
+.annual-plan a {
+    padding-left: 35px;
+    
+    text-decoration: none;
+    font-weight: bold;
+    color:hsl(245, 75%, 52%);
+    font-size: 0.8rem;
+}
+
+
+
+
+
+
+
+
+.order-summary #pay {
+    background-color: hsl(245, 75%, 52%);
+    border-style: none;
+    border-radius: 10px;
+    color:white;
+    height: 45px;
+    width: 320px;
+    display: block;
+    margin: 0 auto;
+    font-weight: bold;
+    
+
+
+}
+
+#pay:hover {
+    background-color: hsl(224, 23%, 55%);
+    cursor: pointer;
+
+}
+
+.order-summary #cancel {
+    background-color: white;
+    border-style: none;
+    margin-top: 15px;
+    font-weight: bold;
+
+    
+
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+  }
+  
+  .top-left-btn {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+  
+    padding: 10px 16px;
+    border: none;
+    background-color:hsl(245, 75%, 52%);
+    
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+
+button a {
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+}
+

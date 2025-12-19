@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Website Showcase</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      color: #222;
+    }
+
+    header {
+      background: #111;
+      padding: 2rem;
+      text-align: center;
+      color: white;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 2rem auto;
+      padding: 1rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+      transition: 0.25s;
+      border: 1px solid #ddd;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    }
+
+    .card h2 {
+      margin-top: 0;
+      font-size: 1.3rem;
+      color: #111;
+    }
+
+    .card p {
+      margin: 0.5rem 0 1rem;
+      color: #555;
+      font-size: 0.95rem;
+    }
+
+    .card a {
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      background: #111;
+      color: white;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: 0.25s;
+    }
+
+    .card a:hover {
+      background: #333;
+    }
+
+    a {
+        color: rgb(84, 124, 183);
+        font-weight: bold;
+    }
+  </style>
+
+  
+  
+</head>
+<body>
+  <header>
+    <h1>My Projects</h1>
+    <p>Challenges completed from <a href="https://www.frontendmentor.io">Frontend Mentor </a></p>
+  </header>
+
+  <div class="container">
+    <div class="card">
+      <h2>Challenge 1: Simple Price Grid Componet </h2>
+      
+      <a href="index1.html" >View Website</a>
+    </div>
+
+    <div class="card">
+      <h2>Challenge 2: Product Preview Card Componet </h2>
+      
+      
+      <a href="index2.html" >View Website</a>
+    </div>
+
+    <div class="card">
+      <h2>Challenge 3: 3-Column Preview Card Component </h2>
+      
+      <a href="index3.html">View Website</a>
+    </div>
+
+    <div class="card">
+        <h2>Challenge 4: Order Summary Componet </h2>
+        
+        <a href="index4.html" >View Website</a>
+      </div>
+
+      <div class="card">
+        <h2>To-Do List</h2>
+        
+        <a href="index6.html">View To-do List</a>
+      </div>  
+  </div>
+
+  
+</body>
+</html>

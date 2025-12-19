@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do list</title>
+    <link rel="stylesheet" href="styles7.css">
+</head>
+<body>
+
+    <h1>TO-DO LIST</h1>
+<div id="background">
+    <form>
+        <label for="task-input">Enter a new Task</label>
+        <input type="text" id="task-input" name="task-input" required>
+        <button type="submit">Add</button>
+    </form>
+
+    <ul id="task-list"></ul>
+</div>
+    <script>
+        const form = document.querySelector('form');
+        const taskList = document.querySelector('#task-list');
+
+        function addTask(task) {
+            const listItem = document.createElement('li');
+
+            listItem.innerHTML = `
+             <label class="task">
+               <input type="checkbox">
+               <span class="checkmark"></span>
+               <span class="task-text">${task}</span>
+               <button>Delete</button>
+             </label>`;
+
+            taskList.appendChild(listItem);
+        }
+
+        form.addEventListener('submit', (event) => {
+            event.preventDefault();
+
+            const input = document.querySelector('#task-input');
+            const task = input.value.trim();
+
+            if (task !== '') {
+                addTask(task);
+                input.value = '';
+            }
+        });
+
+        taskList.addEventListener('click', (event) => {
+    if (event.target.tagName === 'BUTTON') {
+        const listItem = event.target.closest('li'); // get the <li> parent
+        taskList.removeChild(listItem);
+    }
+});
+    </script>
+
+</body>
+</html>

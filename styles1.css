@@ -1,0 +1,159 @@
+body {
+    background-color:#d2f7ee;
+    font-family: 'Karla';
+    
+        
+      
+
+}
+
+.box {
+    width: 500px;
+    height: 200px;
+    background-color: white;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: inline-block;
+}
+
+
+.box h3  {
+    margin-top: 20px;
+    margin-left: 20px;
+    color: hsl(179, 62%, 43%);
+    font-weight: 700;
+    
+}
+
+.box h4 {
+    margin-top: 20px;
+    margin-left: 20px;
+    color: hsl(71, 73%, 54%)
+}
+
+.box p {
+    margin-left: 20px;
+    color: hsl(218, 22%, 67%);
+    font-size: 0.8rem;
+    margin-right: 25px;
+}
+p {
+    font-size: 200;
+}
+
+
+
+
+
+
+
+
+.bottom-half-section {
+    display:flex;
+}
+
+.sec-bottom {
+    background-color: hsl(179, 62%, 43%);
+    width: 250px;
+    height: 250px;
+    margin-left: 100px;
+    border-bottom-left-radius: 10px;
+}
+.sec-bottom h4 {
+    color: white;
+    margin-top:30px;
+    margin-left: 20px; 
+}
+
+.sec-bottom p {
+    color: rgb(255, 255, 255, 0.6);;
+    margin-left: 20px;
+    font-size:smaller;
+}
+
+.sec-bottom .money {
+    font-size:220%;
+    color:white;
+}
+
+.sec-bottom .white-above {
+    color: white;
+}
+
+.sec-bottom button {
+    margin-top: 10px;
+    margin-left: 30px;
+    padding: 5px, 25px;
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    border-radius: 7px;
+    box-shadow: inset; 
+    border: none;
+    width: 190px;
+    height: 40px;
+    font-weight:700;
+    
+}
+.sec-bottom button:hover {
+    color:#d2f7ee;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.third-bottom {
+    background-color:hsl(179, 59%, 52%);
+    width: 250px;
+    height: 250px;
+    border-bottom-right-radius: 10px;
+}
+
+.third-bottom h3 {
+    margin-top: 30px;
+    margin-left: 20px;
+    color: white;
+}
+
+.third-bottom p {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 45px;
+    color:rgb(255, 255, 255, 0.6);
+    font-size:85%;
+}
+
+
+.container {
+    position: relative;
+    height: 100vh;
+  }
+  
+  .top-left-btn {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+  
+    padding: 10px 16px;
+    border: none;
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+
+button a {
+    color:rgb(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+button:hover {
+    color: #d2f7ee;
+}
